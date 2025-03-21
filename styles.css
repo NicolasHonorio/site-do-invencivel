@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #fde367;
+    padding: 20px;
+    text-align: center; /* Garante que os elementos internos sejam centralizados */
+}
+
+.logo {
+    width: 400px; /* Tamanho da logo */
+    height: auto;
+    margin: 0 auto; /* Centraliza a logo */
+}
+
+h1, h2 {
+    color: #fde367;
+}
+.introducao, .motivos, .personagens, .terceira-temporada, .quadrinhos {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.personagem {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.personagem img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.grande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;  /* Centraliza o conteúdo verticalmente, se necessário */
+    text-align: center;  /* Garante que o texto (como o nome e a descrição) também fique centralizado */
+}
+
+.grande img {
+    width: 160%;  /* Aumenta o tamanho da imagem */
+    max-width: 220px;  /* Define um limite para não ficar exagerado */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente */
+    display: block;  /* Faz a imagem ser tratada como um bloco, permitindo a centralização */
+}
+
